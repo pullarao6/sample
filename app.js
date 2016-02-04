@@ -1,6 +1,6 @@
 var express = require('express');
 var path = require('path');
-var test = "hello world";
+var test = "hello world is the first program";
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-app.use('/users', users);
+app.use('/users', clients);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
