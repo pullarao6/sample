@@ -2,6 +2,14 @@ var express = require('express');
 var path = require('path');
 var test = "Welcome world is the first program";
 var y=2;
+If Master has diverged
+since the feature
+branch was created,
+then merging the feature
+branch into
+master will create a
+merge commit. This is
+a typical merge.
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
